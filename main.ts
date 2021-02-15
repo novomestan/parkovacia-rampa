@@ -12,6 +12,3 @@ function Cervena () {
     pins.digitalWritePin(DigitalPin.P1, 0)
     pins.digitalWritePin(DigitalPin.P2, 1)
 }
-basic.forever(function () {
-	
-})
