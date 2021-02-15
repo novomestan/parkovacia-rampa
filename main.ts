@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     Cervena()
-    wuKong.setServoAngel(wuKong.ServoList.S0, 0)
+    wuKong.setServoAngel(wuKong.ServoList.S0, 45 / 1.5)
 })
 function Zelena () {
     pins.digitalWritePin(DigitalPin.P1, 0)
@@ -8,7 +8,7 @@ function Zelena () {
 }
 input.onButtonPressed(Button.B, function () {
     Zelena()
-    wuKong.setServoAngel(wuKong.ServoList.S0, 90)
+    wuKong.setServoAngel(wuKong.ServoList.S0, 135 / 1.5)
 })
 function Cervena () {
     pins.digitalWritePin(DigitalPin.P1, 1)
