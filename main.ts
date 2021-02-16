@@ -18,12 +18,12 @@ basic.forever(function () {
     DigitalPin.P13,
     PingUnit.Centimeters
     )
-    basic.pause(100)
+    basic.pause(200)
     if (Vzdialenost <= 20) {
         Zelena()
         basic.pause(5000)
     } else {
         Cervena()
     }
-    basic.pause(100)
+    basic.pause(200)
 })
