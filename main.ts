@@ -23,4 +23,6 @@ basic.forever(function () {
     PingUnit.Centimeters
     )
     basic.pause(200)
+    basic.showNumber(Vzdialenost)
+    basic.pause(200)
 })
