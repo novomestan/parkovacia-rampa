@@ -36,7 +36,7 @@ basic.forever(function () {
     basic.pause(200)
     if (Vzdialenost <= 20) {
         Zelena()
-        basic.pause(10000)
+        basic.pause(5000)
         Cervena()
         basic.pause(200)
     }
