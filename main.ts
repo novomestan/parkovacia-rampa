@@ -12,6 +12,7 @@ function Cervena () {
 }
 let Vzdialenost = 0
 wuKong.setServoAngel(wuKong.ServoList.S0, 0)
+Cervena()
 basic.forever(function () {
     Vzdialenost = sonar.ping(
     DigitalPin.P12,
